@@ -46,7 +46,7 @@ function insertPetList() {
     petList.innerHTML = "";
     pets.forEach((pet,index) => {
         const listItems = document.createElement("li")
-        listItems.textContent = `Name: ${pet.petName}, Owner Name:${ownerName}, Species:${species}, Breed:${breed}`;
+        listItems.textContent = `Name: ${pet.petName},OwnerName:${ownerName},Species:${species},Breed:${breed}`;
         petList.appendChild(listItems)
     });
 
